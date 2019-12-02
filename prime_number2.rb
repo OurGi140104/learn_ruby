@@ -6,19 +6,6 @@ def is_valid_digit?(string_of_digits, char)
   string_of_digits.include?(char)
 end
 
-# while index < a.size
-#   puts(a[index])
-
-#   # Compare a[index] with c
-
-#   if(a[index]) == c
-#     c_in_a = true
-#     break
-#   end
-
-#   index += 1
-# end
-
 def is_valid_number?(string_of_digits, input_string)
 
   # input_string is a string, can be 1 or multiple characters
